@@ -12,6 +12,7 @@ public class SecondTasklet implements Tasklet {
     public RepeatStatus execute(StepContribution stepContribution, ChunkContext chunkContext) throws Exception {
 
         System.out.println("This is second tasklet step");
+        System.out.println(chunkContext.getStepContext().getJobExecutionContext());
         return RepeatStatus.FINISHED;
     }
 }

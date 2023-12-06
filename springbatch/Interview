@@ -1,0 +1,7 @@
+1. Who is responsible storing metadata info?
+ans: Job Repository
+
+2. ByDefault Spring Batch Uses H2 to store the Metadata.
+3. By Using Job Parameters we can make Job execution unique.
+
+/home/shrikar/Downloads/1_qtG5eb-F9u_ggEqu9wN9og.webp
